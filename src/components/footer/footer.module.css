@@ -1,0 +1,73 @@
+.footer {
+  max-width: 100%;
+  padding: 6rem 1rem 3rem 1rem;
+}
+.footer .main h3 {
+  max-width: 30rem;
+  margin: 1.5rem 0;
+}
+.footer .main ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .main ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.footer .links ul {
+  columns: 2;
+}
+.footer .links ul li a:hover {
+  color: #c91d32;
+}
+.footer .links h2,
+.footer .contato h2 {
+  margin-bottom: 3rem;
+}
+.footer .links ul li:not(last-of-type),
+.footer .contato ul li:not(last-of-type) {
+  margin-bottom: 0.5rem;
+}
+.footer h2 {
+  color: #c91d32;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer h3,
+.footer li,
+.footer li > a,
+.footer p {
+  color: #25313c;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer .direito p {
+  margin-top: 40px;
+  text-align: center;
+  color: #dc9457;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .main h3 {
+    margin: 1rem auto !important;
+  }
+  .footer .links {
+    margin: 6rem 0;
+  }
+  .footer .links ul {
+    columns: 1 !important;
+  }
+  .footer .direito p {
+    margin-top: 6rem;
+  }
+}/*# sourceMappingURL=footer.module.css.map */

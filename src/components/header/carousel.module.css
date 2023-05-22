@@ -1,0 +1,6 @@
+.slick-track {
+  width: 100% !important;
+}
+.slick-track.slick-slide {
+  background: red;
+}/*# sourceMappingURL=carousel.module.css.map */

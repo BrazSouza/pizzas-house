@@ -1,0 +1,18 @@
+.benefits {
+  padding: 8rem 0 14rem;
+}
+.benefits .benefitsMobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .benefits {
+    padding: 8rem 0 1rem;
+  }
+  .benefits .benefitsMobile {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=benefits.module.css.map */

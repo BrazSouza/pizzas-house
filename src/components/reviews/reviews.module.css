@@ -1,0 +1,28 @@
+.reviews {
+  padding: 1rem 0;
+  margin-bottom: 15rem;
+  scroll-margin-top: 15rem;
+}
+.reviews .heading {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+.reviews .heading span {
+  color: #c91d32;
+  text-transform: uppercase;
+}
+.reviews .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews {
+    margin-bottom: 8rem;
+  }
+  .reviews .content {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=reviews.module.css.map */

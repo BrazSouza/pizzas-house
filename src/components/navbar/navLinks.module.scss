@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.list {
+	list-style: none;
+
+	a {
+		padding: 1rem;
+		color: $white;
+		text-decoration: none;
+
+		&:hover {
+			-webkit-text-fill-color: #fff;
+			-webkit-text-stroke: 0.5px orangered;
+		}
+	}
+}

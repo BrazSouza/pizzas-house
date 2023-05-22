@@ -1,0 +1,30 @@
+.cardapio {
+	margin-bottom: 16rem;
+	padding: 4rem 0 8rem;
+	background: #000;
+
+	h2 {
+		color: #d89152;
+	}
+
+	.items-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cardapio {
+		margin: 13rem 0;
+		padding: 4rem 0 8rem;
+		background: #000;
+
+		.items-mobile {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}

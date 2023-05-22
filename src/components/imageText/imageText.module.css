@@ -1,0 +1,39 @@
+.section {
+  padding-bottom: 10rem;
+  scroll-margin-top: 15rem;
+}
+.section .image {
+  width: 100%;
+  max-width: 58rem;
+}
+.section .image,
+.section .content {
+  position: relative;
+  height: 48rem;
+  margin-top: 5rem;
+}
+.section .content span {
+  margin-bottom: 1rem;
+  color: #c91d32;
+  letter-spacing: 10%;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.section .content h2,
+.section .content p {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding-bottom: 0;
+  }
+  .section .image,
+  .section .content {
+    height: 40rem !important;
+    text-align: justify;
+  }
+  .section .content {
+    padding: 6rem 2rem;
+  }
+}/*# sourceMappingURL=imageText.module.css.map */

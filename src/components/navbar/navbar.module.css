@@ -1,0 +1,79 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-image: linear-gradient(#912532, rgba(0, 0, 0, 0.01));
+  z-index: 1000;
+  opacity: 5;
+  transition: background-color 0.3s ease;
+}
+.navbar.active {
+  background-color: #912532;
+}
+.navbar .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.navbar .nav .links ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.navbar .nav .icon {
+  display: none;
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #ffffff;
+  z-index: 3;
+}
+.navbar .nav .menuMobile {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.navbar .nav .menuMobile.active {
+  top: 50%;
+  opacity: 1;
+  transition: all 0.5s ease-in-out 0.2s;
+}
+.navbar .nav .menuMobile ul {
+  text-align: center;
+}
+.navbar .nav .menuMobile ul li {
+  margin: 4rem 0;
+}
+.navbar .nav .menuMobile ul li a {
+  font-size: 2.1rem;
+}
+.navbar .nav .bodyMenu {
+  position: fixed !important;
+  top: 2.5rem;
+  right: 2.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-image: radial-gradient(#912532, #c91d32);
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0.4s;
+}
+.navbar .nav .bodyMenu.active {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  transform: scale(120);
+}
+
+@media screen and (max-width: 768px) {
+  .nav .links {
+    display: none;
+  }
+  .nav .icon {
+    display: inline-block !important;
+  }
+}/*# sourceMappingURL=navbar.module.css.map */

@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+
+.header {
+	position: relative;
+	width: 100%;
+	min-height: 60.5rem;
+	margin-bottom: 8rem;
+	padding: 180px;
+	background: linear-gradient($gradient1, $gradient2);
+
+	.renderSlide {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: url(../../../images/slide-4.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+	}
+
+	.content {
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		width: 100%;
+		max-width: 70rem;
+		padding: 0 1rem;
+		text-align: center;
+		color: $white;
+		transform: translate(-50%, -50%);
+
+		h1 {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.image {
+		position: absolute;
+		left: 50%;
+		bottom: -10rem;
+		width: 80%;
+		max-width: 58rem;
+		height: 28rem;
+		transform: translateX(-50%);
+	}
+}

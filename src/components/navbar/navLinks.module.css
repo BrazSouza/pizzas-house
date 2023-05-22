@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+}
+.list a {
+  padding: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.list a:hover {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: 0.5px orangered;
+}/*# sourceMappingURL=navLinks.module.css.map */
