@@ -11,7 +11,7 @@ const ImageText = ({ data, id }) => {
 			<div className="container">
 				<div className="row row-cols align-items-center justify-content-between">
 					<div className="col-12 col-md">
-						<div className={styles.image}>
+						<div className={styles['image']}>
 							<Image src={imageProps.src} loader={imageProps.Loader} layout="fill" objectFit="contain" alt={imageProps.image} />
 						</div>
 					</div>

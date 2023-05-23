@@ -11,7 +11,7 @@ const Header = ({ header }) => {
 	return (
 		<header className={styles.header}>
 			{/* <Carousel image={renderSlide} /> */}
-			<div className={styles.renderSlide}></div>
+			<div className={styles['renderSlide']} />
 			<div className="container">
 				<div className={styles.content}>
 					<h1>{header.title}</h1>
