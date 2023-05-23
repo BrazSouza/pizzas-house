@@ -54,7 +54,7 @@ const Footer = ({ footer }) => {
 					</div>
 				</div>
 				<div className={styles.direito}>
-					<p>Pizza House - Todos os direitos reservados</p>
+					<p>Pizza House - Todos os direitos reservados | Criado por Braz Souza </p>
 				</div>
 			</div>
 		</section>
