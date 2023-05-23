@@ -18,7 +18,7 @@ const Footer = ({ footer }) => {
 					<div className="col-12 col-md">
 						<div className={styles.main}>
 							<a href="#">
-								<Image src="/logo.png" width={180} height={80} alt="Logo Footer" />
+								<Image src="/logo.png" width={120} height={60} alt="Logo Footer" />
 							</a>
 							<h3>{footer.text}</h3>
 							<ul>
