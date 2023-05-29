@@ -34,9 +34,9 @@ export default function Home({ header, benefits, about, cardapio, reviews, locat
 }
 
 //TODO - ANTES DE QUALQUER COMPONENTE SER CARREGADO, O "getStaticProps" VAI SER CARREGADO PRIMEIRO
-//? Aqui dentro podemos passar podemos passar informações, fazer requisições e as requisições serem passadas para dentro dos componentes.
-//? Assim, quando o projeto estiver em tempo de build, ele pega as requisições que estou fazendo e pegar o objeto de props para os componentes.
-//? Quando o componente carregar ele ja vai ter acesso a todas as informações de requisições aqui dentro.
+//? Aqui dentro podemos passar informações, fazer requisições e as requisições serem passadas para dentro dos componentes.
+//? Assim, quando o projeto estiver em tempo de build, ele pega as requisições que estou fazendo e pega o objeto de props para os componentes.
+//? Quando o componente carregar, ele ja vai ter acesso a todas as informações de requisições aqui dentro.
 
 export const getStaticProps = async () => {
 	const header = await client.fetch(`*[_type == "header"][0]`); //* Procurando nos schemas, qual schema tem o tipo igual ao header
